@@ -32,10 +32,10 @@ https://web.digitalinnovation.one/lab/recriando-o-famoso-jogo-do-dinossauro-sem-
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:GilsonMartias/dino-game.git
+$ git remote add origin https://github.com/GilsonMartias/dinocat-game.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd dino-game
+$ cd dinocat-game
 
 
 ```
