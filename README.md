@@ -2,6 +2,11 @@
 
 Olá! Bem Vindo ao meu Jogo do DinoCAT :wave:
 
+<h1 align="center">
+    <img alt="Final de Jogo" title="#NextLevelWeek" src="img/inicio.jpg" />
+    <img alt="Final de Jogo" title="#NextLevelWeek" src="img/final.jpg" />
+</h1>
+
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
  <a href="#-clonando-a-aplicação">Clonando a aplicação</a> •
