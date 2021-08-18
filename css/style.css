@@ -1,0 +1,103 @@
+body{
+  background: #fafafa;
+}
+.janela{
+  width: 720px;
+
+}
+.dino {
+  width: 450px;
+  height: 355px;
+  background-image: url(../img/dino.gif);
+  position: absolute;
+  bottom: 100px;
+  background-size: 450px;
+}
+
+.cactus {
+  position: absolute;
+  width: 112px;
+  height: 190px;
+  bottom: 150px;
+  background-image: url(../img/cactus.gif);  
+  background-size: 110px;
+}
+
+.game-over1{
+  text-align: center;
+  color: #666666;
+  margin-top: 50px;
+  font-family: arial;
+}
+.game-over{ 
+  position: absolute; 
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat-x;
+  width: 99%;
+  height: 770px;
+  background-size: 1125px;
+}
+
+.game-over-content{
+  left: calc(50% - 200px);
+  top: calc(50% - 85px);  
+  position: absolute;  
+  text-align-last: center;
+  /* border: 1px solid; */
+  font-size: 35px;
+  width: 400px;
+  height: 170px;
+  -webkit-text-stroke: medium;
+}
+
+@keyframes slideright{
+  from{
+    background-position: 70000%;
+  }
+
+  to{
+    background-position: 0%;    
+  }
+}
+
+.background1{
+  position: absolute;
+  bottom: 0;
+  background-image: url(../img/background.png);
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+}
+
+.background{
+  position: absolute;
+  /* bottom: 0; */
+  background-image: url(../img/background.jpg);
+  background-repeat: repeat-x;
+  animation: slideright 200s infinite linear;
+  width: 99%;
+  height: 770px;
+  background-size: 1300px;
+}
+
+.rePlay {
+    display: flex;
+    margin: auto;
+    font-size: 50px;
+    border-radius: 30px;
+    background: springgreen;
+    color: white;
+    font-weight: 900;
+}
+
+h1{
+  /* font-size: 23px; */
+  margin:0;
+}
+
+#letreiro{
+  font-size: 80px;
+  text-align: end; 
+  margin: 25px 85px 10px 10px;
+}
